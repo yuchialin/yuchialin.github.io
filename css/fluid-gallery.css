@@ -1,0 +1,88 @@
+
+.container_fluid{
+    overflow: hidden;
+}
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: .5px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    /*content: '\e003';*/
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+/*___*/
+
+.tz-gallery .hover_container{
+    position: relative;
+    width: 100%;
+}
+
+.tz-gallery .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.tz-gallery .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(26, 26, 26, 0.4);
+}
+
+.hover_container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}

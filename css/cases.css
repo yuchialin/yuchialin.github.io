@@ -1,0 +1,338 @@
+@font-face {
+    font-family: gotham;
+    src: url(fonts/gotham.otf);
+}
+
+@font-face {
+    font-family: Lulo Clean;
+    src: url(fonts/Lulo.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/HKGrotesk-Light.otf);
+}
+
+/*----------------uni-------------------*/
+h1{
+    font-size:3em;
+    font-family: 'Lulo Clean', sans-serif;
+    color:black;
+    padding-top:30px;
+    margin-bottom:20px;
+}
+
+h2{
+    font-size:2.2em;
+    font-family: 'Lulo Clean', sans-serif;
+    text-align: center;
+    margin-bottom:50px;
+    margin-top:50px;
+    color:black;
+}
+
+h3{
+    font-size:1.6em;
+    font-family: 'gotham','sans-serif';
+    text-align: center;
+    color:white;
+}
+
+h4{
+    font-size:1.3em;
+    font-family: 'gotham','sans-serif';
+    letter-spacing: .2em;
+    color: #9012FE;
+    text-align: center;
+    margin: 10px 0;
+}
+
+h5{
+    font-size:1.8em;
+    color:black;
+    font-family: 'gotham','sans-serif';
+    font-weight: 300;
+
+}
+
+h6{
+    font-size:1em;
+    color:#9B9B9B;
+    font-family: 'gotham','sans-serif';
+    margin-bottom: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Avenir','sans-serif';
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+span{
+    color: white;
+}
+
+p{
+    font-family: 'Avenir','sans-serif';
+    width:100%;
+    line-height:1.5em;
+    justify-content: center;
+    display: block;
+    margin:5px 0 20px 0px;
+    font-size:1em;
+    text-align: center;
+}
+
+.p-left{
+    text-align: left;
+}
+
+
+ul {
+    font-family: 'Avenir','sans-serif';
+    width:100%;
+    line-height:1.5em;
+    justify-content: center;
+    display: block;
+    list-style-type: square;
+    text-align: left;
+    font-size:1em;
+    padding-left:25px;
+}
+
+ul li{
+    margin-bottom: 5px;
+}
+
+section {
+    width:100%;
+    box-sizing:border-box;
+    padding:50px 150px 50px 150px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+    justify-content:center;
+    background: white;
+}
+
+
+
+.border{
+    width:80%;
+    border-bottom: solid #dddddd 1px;
+    margin: 100px auto;
+}
+/*-------------------nav-------------*/
+
+
+.navbar{
+    background: black;
+}
+
+.navbar ul{
+    justify-content: flex-end;
+}
+
+.navbar ul li{
+    margin:3px 20px;
+}
+
+.navbar ul li a{
+    font-family: 'Source Code Pro', 'sans-serif';
+}
+
+
+
+
+/*-------------------cover-------------*/
+
+.cover{
+    width: 100%;
+    text-align: center;
+    height:550px;
+    font-family: 'Heebo', sans-serif;
+    margin:0 auto;
+}
+
+.cover_text{
+    margin-top: 100px;
+}
+
+#home{
+    background: url("../img/index/home.jpg") 50% 20% fixed ;
+    background-size:cover;
+    height:80vh;
+}
+
+#orcago{
+    background: url("../img/cases/orcago/Background.jpg") fixed ;
+    background-size:cover;
+}
+
+#lms{
+    background: url("../img/cases/LMS/Cover_LMS.jpg") 50% 20% fixed ;
+    background-size:cover;
+}
+
+#dayssert{
+    background: url("../img/cases/Dayssert/cover.jpg") fixed ;
+    background-size:cover;
+}
+
+.case_name{
+    color:white;
+}
+
+
+
+/*-------------------overview-------------*/
+
+
+.single img{
+    max-width:800px;
+    width:100%;
+    display: block;
+    margin:0 auto;
+}
+
+.mockup img{
+    max-width: 300px;
+    width:100%;
+}
+
+.morcago .overview_text h4{
+    text-align: left;
+}
+
+.overview_text p{
+    text-align: left;
+}
+
+
+
+
+/*-------------------research-------------*/
+.research img{
+    max-width:400px;
+    width:100%;
+    display: block;
+    margin:10px auto;
+}
+
+.dayssert_container .research img{
+    max-width:800px;
+    width:100%;
+}
+
+
+/*-------------------Persona-------------*/
+
+.persona .subtitle{
+    text-align: center;
+}
+
+.persona img{
+    max-width:200px;
+    width:100%;
+
+}
+
+
+
+
+/*-------------------architecture-------------*/
+
+
+
+.architecture .section_container{
+    -webkit-flex-direction: column;
+    margin:0 auto;
+}
+
+.architecture img{
+    max-width:1000px;
+    width:100%;
+}
+
+/*-------------------testing-------------*/
+
+.testing img{
+    max-width:400px;
+    width:100%;
+    display: block;
+    margin:10px auto;
+}
+
+
+
+
+/*-------------------result-------------*/
+
+.orcago_container .orca_result ul{
+    margin-top:-100px;
+}
+
+
+.reward img{
+    max-width:700px;
+    width:100%;
+    height: auto;
+}
+
+.reward h2, .reward h4, .reward p{
+    text-align: left;
+}
+
+
+
+/*-------------------key learnings-------------*/
+
+.prototype{
+    margin-top:-200px;
+}
+
+
+/*-------------------footer-------------*/
+
+.P_footer{
+    height:250px;
+    background: #3f3f3f;
+    margin-top:100px;
+    padding-top:50px;
+}
+
+.P_footer ul li{
+    list-style: none;
+    margin-left:0px;
+    color:#9B9B9B;
+}
+
+.P_footer ul li a{
+    color:#9B9B9B;
+}
+
+.P_footer ul li a:hover{
+    color:white;
+    transition: all .8s;
+}
+
+.P_footer p{
+    color:#9B9B9B;
+}
+
+.P_footer .project_container{
+    width: 60%;
+}
+
+.P_footer p{
+    text-align: left;
+}
+

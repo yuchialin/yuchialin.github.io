@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/HKGrotesk-Light.otf);
+}
+
+/*----------------uni-------------------*/
+h1{
+    font-size:4em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    color:black;
+}
+
+h2{
+    font-size:1.6em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: black;
+    margin: 50px 0;
+}
+
+
+h3{
+    font-size:1.1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    letter-spacing: .1em;
+    color: #9B9B9B;
+    margin:20px 0
+}
+
+h4{
+
+    font-size:1.6em;
+    color:black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h5{
+    font-size:1em;
+    color: #9B9B9B;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+span{
+    color: white;
+}
+
+p{
+    font-family: 'Avenir','sans-serif';
+    width:100%;
+    line-height:1.5em;
+    justify-content: center;
+    display: block;
+    margin:5px 0 20px 0px;
+    font-size:1em;
+    text-align: left;
+}
+
+
+ul {
+    font-family: 'Avenir','sans-serif';
+    width:100%;
+    line-height:1.5em;
+    justify-content: center;
+    display: block;
+    list-style-type: square;
+    text-align: left;
+    font-size:1em;
+    padding-left:25px;
+}
+
+
+
+.border{
+    width:80%;
+    border-bottom: solid #dddddd 1px;
+    margin: 100px auto;
+}
+
+
+.single img{
+    max-width:1000px;
+    width:100%;
+    margin:50px auto;
+
+}
+
+.single_large img{
+    max-width:1800px;
+    width:100%;
+    margin:50px auto;
+}
+
+.double img{
+    max-width:400px;
+    width:100%;
+    margin-bottom:30px auto;
+
+}
+
+
+
+/*-------------------Persona-------------*/
+
+
+.persona img{
+    max-width:200px;
+    width:100%;
+
+
+}
+
+/*-------------------key learnings-------------*/
+
+.prototype{
+    margin-top:-200px;
+}
+
+

@@ -1,0 +1,378 @@
+@font-face {
+    font-family: gotham;
+    src: url(fonts/gotham.otf);
+}
+
+@font-face {
+    font-family: Lulo Clean;
+    src: url(fonts/Lulo.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/HKGrotesk-Light.otf);
+}
+
+/*----------------uni-------------------*/
+h1{
+    font-size:3em;
+    font-family: 'Lulo Clean', sans-serif;
+    color:black;
+    padding-top:30px;
+}
+
+h2{
+    font-size:1.5em;
+    font-family: 'Lulo Clean', sans-serif;
+    text-align: center;
+    margin-bottom:20px;
+    color:black;
+}
+
+h4{
+    font-size:.8em;
+    font-family: 'gotham','sans-serif';
+    letter-spacing: .2em;
+    margin-bottom:30px;
+    color: black;
+    text-align: center;
+}
+
+h5{
+    font-size:1.8em;
+    color:black;
+    font-family: 'gotham','sans-serif';
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+span{
+    color: #8fbbc0;
+}
+
+.container{
+    overflow: hidden;
+}
+
+/*about---------------*/
+
+.about{
+    width:100%;
+    height:100vh;
+    background: url('../img/filter-iceland.jpg') 50% 90%;
+    background-size: cover;
+    box-sizing: border-box;
+    padding:20px;
+
+}
+
+.about-text{
+    text-align: left;
+    width:100%;
+    height:85vh;
+    display:-webkit-flex;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+    margin:0px auto;
+}
+
+/*about---------------*/
+.me{
+    width:100%;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.me-text p{
+    width:100%;
+    text-align: justify;
+    line-height:1.8em;
+    font-family: 'Avenir','sans-serif';
+    margin-bottom:20px;
+
+}
+.cp{
+    max-width:300px;
+    min-width:250px;
+    width:100%;
+    margin:0 auto;
+}
+
+.cp img{
+    max-width:300px;
+    min-width:250px;
+    width:100%;
+    margin:0 auto;
+
+}
+
+.resume{
+    width:200px;
+    height:45px;
+    line-height:45px;
+    border:2px solid black;
+    color:black;
+    margin:20px auto;
+    text-align: center;
+    font-family: 'Avenir','sans-serif';
+    cursor:pointer;
+    letter-spacing: .1em;
+    transition: all .5s;
+}
+
+
+/*intro---------------*/
+
+.intro{
+    width:100%;
+    box-sizing: border-box;
+    padding:20px;
+    background: url("../img/filter-mountain.jpg")50% 50%;
+    background-size: cover;
+}
+
+.soft span{
+    color:white;
+}
+
+.intro-text{
+    width: 70%;
+    height:80vh;
+    background: white;
+    position:absolute;
+    top:-40vh;
+    box-sizing: border-box;
+    padding:100px;
+    text-align: center;
+}
+
+.intro-software ul{
+    max-width:100px;
+    width:100%;
+    text-align:right;
+    font-size: 1em;
+    color: black;
+    margin-right: 10px;
+    font-family: 'gotham','sans-serif';
+
+}
+
+
+.intro-software ul li{
+    margin-bottom:30px;
+    color:white;
+
+}
+.skills{
+    width:600px;
+}
+.soft{
+    display:flex;
+    margin-bottom:30px;
+}
+.skill {
+    position: relative;
+    width:100%;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 1em;
+    background: white;
+    display: block;
+    position: relative;
+}
+
+.skill1{
+    width: 95%;
+}
+
+.skill2{
+    width: 95%;
+}
+
+.skill3{
+    width: 80%;
+}
+
+.skill4{
+    width: 90%;
+}
+
+.skill5{
+    width: 80%;
+}
+
+.skill6{
+    width: 85%;
+}
+
+.soft span{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/*----------------portfolio-------------------*/
+
+.portfolio{
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.work img{
+    max-width:300px;
+    min-width:250px;
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.work h4{
+    font-weight: bold;
+}
+
+.work p{
+    display: block;
+    width:80%;
+    text-align: justify;
+    line-height:1.8em;
+    font-family: 'Avenir','sans-serif';
+    margin:0 auto 0 20px;
+}
+
+.download{
+    display:block;
+    width:180px;
+    height:40px;
+    line-height:40px;
+    background:white;
+    border: 2px solid black;
+    color:black;
+    margin:30px auto 0px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+
+/*----------------experience-------------------*/
+
+.experiences{
+    width:100%;
+    background: #5fbbc0;
+    padding: 20px;
+    box-sizing: border-box;
+    height:1300px;
+
+
+}
+
+.experience-container{
+    position:relative;
+}
+
+.experience{
+    position: absolute;
+    top:0;
+
+}
+
+.experience-two{
+    top:300px;
+}
+
+.job{
+    margin-bottom:400px;
+}
+
+.date{
+    color: white;
+    font-size:1em;
+    padding-top:20px;
+    margin-bottom:15px;
+    font-family: 'gotham','sans-serif';
+}
+
+.title{
+    font-size:1.2em;
+    margin-bottom:10px;
+    color:black;
+    font-family:'gotham','sans-serif';
+
+}
+
+.company{
+    font-size:.8em;
+    color:black;
+    margin-bottom:20px;
+
+}
+
+
+.job-d{
+    color:black;
+    line-height:1.5em;
+    font-size:1em;
+    height:100px;
+    font-family: 'Avenir', sans-serif;
+
+}
+
+/*----------------gallery-------------------*/
+
+.gallery{
+    width:100%;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.photo{
+    max-width:300px;
+    min-width:250px;
+    width:100%;
+    max-height:300px;
+    min-height:250px;
+    height:100%;
+    margin: 0 auto 20px auto;
+}
+
+.photo-cover{
+    opacity: 0;
+}
+
+
+/*----------------contact-------------------*/
+
+
+.contact{
+    width:100%;
+    padding:20px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #5fbbc0;
+}
+
+.contact p{
+    display: block;
+    width:80%;
+    line-height:1.8em;
+    font-family: 'Avenir','sans-serif';
+    margin:0 auto 0 20px;
+}
+
+.pc{
+    display: none;
+}

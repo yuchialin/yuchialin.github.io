@@ -1,0 +1,36 @@
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#aaaaaa;
+}
+
+a:hover{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4A4A4A;
+}
+
+.logo{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E26A6A;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.nav li a{
+  color:black;
+}
+
+.my_navbar{
+    height:100px;
+}
+
+
+.my_navbar ul{
+    justify-content: flex-end;
+    width:100%;
+}
+
+.my_navbar ul li{
+    margin-left:15px;
+}
+
+

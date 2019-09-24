@@ -1,0 +1,560 @@
+@font-face {
+    font-family: gotham;
+    src: url(fonts/gotham.otf);
+}
+
+@font-face {
+    font-family: Lulo Clean;
+    src: url(fonts/Lulo.ttf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/HKGrotesk-Light.otf);
+}
+
+
+/*----------------uni-------------------*/
+h1{
+    font-size:6em;
+    font-family: 'Lulo Clean', sans-serif;
+    color:black;
+    padding-top:30px;
+    text-align: left;
+}
+
+h2{
+    font-size:3em;
+    font-family: 'Lulo Clean', sans-serif;
+    text-align: center;
+    margin-bottom:20px;
+    color:black;
+}
+
+h4{
+    font-size:1.5em;
+    font-family: 'gotham','sans-serif';
+    letter-spacing: .2em;
+    margin-bottom:30px;
+    color: black;
+    text-align: center;
+}
+
+h5{
+    font-size:1.8em;
+    color:black;
+    font-family: 'gotham','sans-serif';
+
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+span{
+    color: #8fbbc0;
+}
+
+
+/*----------------nav-------------------*/
+
+.navbar{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    position:fixed;
+    font-family: 'Avenir','sans-serif';
+    z-index:5;
+    transition:all .5s;
+    font-size:1em
+}
+
+.navbar ul{
+    max-width:500px;
+    width:100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    margin-left:auto;
+    padding-right:20px;
+}
+
+.navbar li a{
+    padding:2px;
+    color:black;
+}
+
+.navbar li a:hover{
+    border-bottom:2px solid black;
+}
+
+/*----------------about-------------------*/
+
+.about {
+    background: white url("../img/filter-iceland.jpg") 50% 20% fixed ;
+    width: 100%;
+    height: 200vh;
+    background-size:cover;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+
+.about-text{
+    width:100%;
+    height:85vh;
+    display:-webkit-flex;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+    margin:0 auto;
+
+}
+
+/*----------------me-------------------*/
+
+
+.me{
+    width:100%;
+    box-sizing: border-box;
+    padding:20px;
+
+}
+
+.me-text p{
+    width:80%;
+    text-align: justify;
+    line-height:1.8em;
+    font-family: 'Avenir','sans-serif';
+    margin:0 auto 20px auto;
+
+}
+.cp{
+    max-width:400px;
+    min-width:250px;
+    width:100%;
+    margin:0 auto;
+}
+
+.cp img{
+    max-width:400px;
+    min-width:250px;
+    width:100%;
+    margin:0 auto;
+
+}
+
+.resume{
+    width:200px;
+    height:45px;
+    line-height:45px;
+    border:2px solid black;
+    color:black;
+    margin:20px auto;
+    text-align: center;
+    font-family: 'Avenir','sans-serif';
+    cursor:pointer;
+    letter-spacing: .1em;
+    transition: all .5s;
+}
+
+/*intro---------------*/
+
+.intro{
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    padding:20px;
+    background: url("../img/filter-mountain.jpg")50% 50%;
+    background-size: cover;
+}
+
+.soft span{
+    color:white;
+}
+
+.intro-text{
+    width: 70%;
+    height:80vh;
+    background: white;
+    position:absolute;
+    top:-40vh;
+    box-sizing: border-box;
+    padding:100px;
+    text-align: center;
+}
+
+.intro-software ul{
+    max-width:100px;
+    width:100%;
+    text-align:right;
+    font-size: 1em;
+    color: black;
+    margin-right: 10px;
+    font-family: 'gotham','sans-serif';
+
+}
+
+
+.intro-software ul li{
+    margin-bottom:30px;
+    color:white;
+
+}
+.skills{
+    width:600px;
+}
+.soft{
+    display:flex;
+    margin-bottom:30px;
+}
+.skill {
+    position: relative;
+    width:100%;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 1em;
+    background: white;
+    display: block;
+    position: relative;
+}
+
+.skill1{
+    width: 95%;
+}
+
+.skill2{
+    width: 95%;
+}
+
+.skill3{
+    width: 80%;
+}
+
+.skill4{
+    width: 90%;
+}
+
+.skill5{
+    width: 80%;
+}
+
+.skill6{
+    width: 85%;
+}
+
+.soft span{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/*----------------portfolio-------------------*/
+
+.portfolio{
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.work img{
+    max-width:500px;
+    min-width:250px;
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.work h4{
+    font-weight: bold;
+}
+
+.work p{
+    display: block;
+    width:400px;
+    text-align: justify;
+    line-height:1.8em;
+    font-family: 'Avenir','sans-serif';
+    margin:0 auto 0 auto;
+}
+
+.download{
+    display:block;
+    width:180px;
+    height:40px;
+    line-height:40px;
+    background:white;
+    border: 2px solid black;
+    color:black;
+    margin:30px auto 0px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+
+
+
+
+/*----------------experience-------------------*/
+
+.experiences{
+    width:100%;
+    background: #5fbbc0 url("../img/filter-mountain.jpg");
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    height:1300px;
+}
+
+.experience-container{
+    position:relative;
+    margin: 0 auto;
+
+}
+
+.experience{
+    max-width:500px;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-250px;
+}
+
+.experience-two{
+    top:450px;
+}
+
+.job{
+}
+
+.date{
+    color: white;
+    font-size:1em;
+    padding-top:20px;
+    margin-bottom:15px;
+    font-family: 'gotham','sans-serif';
+}
+
+.title{
+    font-size:1.2em;
+    margin-bottom:10px;
+    color:black;
+    font-family:'gotham','sans-serif';
+
+}
+
+.company{
+    font-size:.8em;
+    color:black;
+    margin-bottom:20px;
+
+}
+
+
+.job-d{
+    color:black;
+    line-height:1.5em;
+    font-size:1em;
+    height:100px;
+    font-family: 'Avenir', sans-serif;
+
+}
+
+
+/*.timeline{*/
+    /*position:relative;*/
+    /*width:50px;*/
+    /*height:200px;*/
+    /*margin-top:30px;*/
+/*}*/
+
+
+/*.circle{*/
+    /*width:10px;*/
+    /*height:10px;*/
+    /*border-radius: 50%;*/
+    /*background: white;*/
+    /*margin:0 auto 0 -10px;*/
+    /*position:absolute;*/
+    /*left:25px;*/
+
+/*}*/
+
+/*.line{*/
+    /*width:2px;*/
+    /*background: white;*/
+    /*position:absolute;*/
+    /*left:25px;*/
+    /*top:10px;*/
+    /*margin-left:-6px;*/
+/*}*/
+
+
+/*----------------gallery-------------------*/
+
+.gallery{
+    width:100%;
+    height:1200px;
+    box-sizing: border-box;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery h2{
+
+    margin-top:100px;
+}
+
+.photo-container{
+    width: 90%;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    flex-wrap: wrap;
+
+}
+.photo{
+    max-width:380px;
+    max-height: 300px;
+    min-width:180px;
+    min-height: 100px;
+    width:100%;
+    height:100%;
+    margin-left:10px;
+    margin-bottom:10px;
+    background: #8fbbc0;
+    position:relative;
+    cursor: pointer;
+}
+
+.photo-cover{
+    position:absolute;
+    width:380px;
+    height:300px;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: white;
+    opacity:0;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo:hover .photo-cover{
+    opacity:.8;
+}
+
+
+
+/*----------------contact-------------------*/
+
+.contact{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-self: center;
+    justify-content:center;
+    position:relative;
+    color:black;
+    background: #5fbbc0;
+    background-size: cover;
+
+}
+
+.contact-memo{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;/* works with row or column */
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+
+}
+
+.contact-container{
+    height:300px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+}
+
+.contact-text{
+    box-sizing: border-box;
+
+}
+
+.contact-text h2{
+    text-align: left;
+}
+
+.contact-text, .contact-container form{
+    width:350px;
+}
+
+.contact-text>p{
+    text-align: justify;
+    height:100px;
+    line-height:1.5em;
+    font-family: 'Avenir','sans-serif';
+}
+
+.contact input{
+    width:300px;
+    height:35px;
+    margin:10px;
+    font-size:1em;
+    padding:5px;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid black;
+    background: none;
+    font-family: 'Avenir','sans-serif';
+
+}
+
+.contact textarea{
+    width:300px;
+    height:100px;
+    font-size: 1em;
+    padding:5px;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid black;
+    background: none;
+    font-family: 'Avenir','sans-serif';
+
+
+}
+
+
+.pc{
+    display:none;
+}
+
+
+/*----------------footer-------------------*/
